@@ -1,0 +1,26 @@
+* {
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;;
+    padding: 0;
+}
+
+@keyframes left-right {
+    from {
+        background-color: green;
+        left : 0px
+    }
+    to {
+        background-color: orange;
+        left : 100px
+    }
+}
+.para {
+    font-weight: bolder;
+    color: blue;
+    animation: left-right 2s ease-in 1s infinite;
+}
+
+h1 {
+    color: brown ;
+}
